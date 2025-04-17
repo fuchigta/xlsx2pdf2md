@@ -13,9 +13,7 @@ Excel 方眼紙をいい感じにマークダウン化するための実験場
    - 前提
      - `Poppler`の最新リリースを ↓ から取得して、解凍して PATH を通しておく
        - [Releases · oschwartz10612/poppler-windows](https://github.com/oschwartz10612/poppler-windows/releases)
-4. ページ単位の画像をマークダウン化する
-   - この部分は作ってないけど、Claude に ↑ の画像を食わせたらいい感じにマークダウン化できた（`test4/page_001.md`）
-   - なので、LangChain ＋構造化出力でマークダウンを出力させるようにすればよい
+4. ページ単位の画像をマークダウン化する（`img2md.py` ⇒ `test4.md`）
    - 画像と合わせて原本である PDF も与えると OCR にミスった情報を PDF と突き合わせていい感じに解釈してくれるかも？
 
 ## なぜこの処理なのか？

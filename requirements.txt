@@ -1,2 +1,6 @@
 pdf2image
 pillow
+langchain
+langchain-openai
+langchain-google-genai
+python-dotenv
